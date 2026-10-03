@@ -1,5 +1,6 @@
 Slides for this workshop can be found at:
 https://bit.ly/ESP32-S3-workshop
+AGENTS.md: copy this file to the root of your CIRCUITPY drive" with the bit.ly, and the Raw → ⌘A, ⌘C instruction
 
 Components Used:
 - ESP32-S3 R16S8 with expansion boards (below is a 2-pack) https://a.co/d/04qa6hTg
