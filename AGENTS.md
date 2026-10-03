@@ -32,7 +32,7 @@ The boards have the 5V IN-OUT jumper soldered, so the 5V pin carries USB power a
 - If the request is unclear (how many lights, which colors, how fast, which pin), ask one question before writing code.
 
 ## Power (check every program)
-- Everything runs from one laptop USB port. NeoPixel brightness stays at 0.2 or lower (the strip has 100 lights).
+- Everything runs from one laptop USB port. NeoPixel brightness stays at 0.3 or lower (the strip has 100 lights).
 - Warn, in a comment and one sentence, when a program exceeds those limits, lights more than about 30 pixels white, moves a servo while lights are on, or plays sound with many bright lights. Low power looks like flicker, a jittering servo, squealing audio, or a board that restarts ("Power dipped" safe mode → press RST, then reduce the load).
 - Potentiometers and STEMMA-QT sensors run on 3.3V, never 5V. A separate 5V supply for lights or motors shares GND with the board but never touches the board's 5V pin.
 
